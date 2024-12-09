@@ -1,0 +1,201 @@
+#firstPage {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  background-image: url(images/daroom.webp);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#secondPage {
+  height: 91vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+}
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: solid rgb(0, 0, 0) 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.modal-content2 {
+  text-align: center;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
+}
+
+/* Modal content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: #f1f1f1;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#timer {
+  font-size: 48px;
+  font-weight: bold;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+}
+.startrow {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+.startbox {
+  width: 20%;
+  height: 100%;
+}
+.img {
+  max-height: 40%;
+  max-width: 50%;
+}
+.guy {
+  height: 35%;
+  width: auto;
+}
+
+.ctext {
+  max-height: 100%;
+  max-width: 100%;
+}
+.clickable {
+}
+.clickable:hover {
+  cursor: pointer;
+}
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+.border {
+  border: solid rgb(0, 0, 0) 1px;
+}
+.mrow {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.toprow {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.row {
+  width: 100%;
+  height: calc(100% / 12);
+  display: flex;
+}
+
+.box {
+  width: calc(100% / 30);
+  height: 100%;
+  background-image: url(images/ice.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.topbox {
+  width: calc(100% / 7);
+  height: 100%;
+  background-image: url(images/ice.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.rock {
+  background-image: url(images/smoothstone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#block {
+  position: absolute;
+  width: 80px; /* Width of the block */
+  height: 65px; /* Height of the block */
+  background-image: url(images/fire.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 1720px; /* Initial horizontal position */
+  top: 1025px; /* Initial vertical position */
+}
+#startplayer {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 750px;
+  left: 950px;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mcc {
+  justify-content: center;
+  align-items: center;
+}
+.centertext {
+  align-items: center;
+  display: flex;
+}
+p1 {
+  font-size: 20px;
+}
+p2 {
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+p3 {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+h1 {
+  background-color: #ffffff;
+  position: absolute;
+  filter: drop-shadow(0px 0px 2px);
+}
+.hidden {
+  display: none;
+}

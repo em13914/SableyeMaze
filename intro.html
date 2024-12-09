@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Start!</title>
+    <link rel="stylesheet" href="intro.css" />
+  </head>
+  <body id="firstPage">
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox center-content">
+        <img
+          src="images/characterfinal.png"
+          class="clickable guy"
+          onclick="showModal()"
+          id="myImage"
+        />
+      </div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="mrow center-content">
+        <img
+          src="text/4.png"
+          class="clickable ctext"
+          id="t1"
+          onclick="changetext1()"
+        />
+        <img
+          src="text/5.png"
+          class="clickable ctext hidden"
+          id="t2"
+          onclick="changetext2()"
+        />
+        <img
+          src="text/6.png"
+          class="clickable ctext hidden"
+          id="t3"
+          onclick="changetext3()"
+        />
+        <img
+          src="text/7.png"
+          class="clickable ctext hidden"
+          id="t4"
+          onclick="changetext4()"
+        />
+        <img
+          src="text/8.png"
+          class="clickable ctext hidden"
+          id="t5"
+          onclick="changetext5()"
+        />
+        <img
+          src="text/9.png"
+          class="clickable ctext hidden"
+          id="t6"
+          onclick="changetext6()"
+        />
+        <img
+          src="text/10.png"
+          class="clickable ctext hidden"
+          id="t7"
+          onclick="changetext7()"
+        />
+        <img
+          src="text/11.png"
+          class="clickable ctext hidden"
+          id="t8"
+          onclick="changetext8()"
+        />
+        <img
+          src="text/12.png"
+          class="clickable ctext hidden"
+          id="t9"
+          onclick="changetext9()"
+        />
+        <img
+          src="text/13.png"
+          class="clickable ctext hidden"
+          id="t10"
+          onclick="changetext10()"
+        />
+        <img
+          src="text/14.png"
+          class="clickable ctext hidden"
+          id="t11"
+          onclick="changetext11()"
+        />
+      </div>
+      <img
+          src="text/15.png"
+          class="clickable ctext hidden"
+          id="t12"
+          onclick="nextroom()"
+        />
+      </div>
+      <div class="mrow center-content">
+        <img  src="images/characterfinal.png" />
+      </div>
+    </div>
+    <script src="intro.js"></script>
+    <script src="preload.js"></script>
+  </body>
+</html>

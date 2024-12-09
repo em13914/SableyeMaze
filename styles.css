@@ -1,0 +1,161 @@
+body,
+html {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  position: relative;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pokeball {
+  top: -70%;
+  height: 500px;
+  width: 500px;
+  left: 75%;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+}
+.spin-image {
+  width: 312px;
+  height: 312px;
+  transition: transform 5s ease-in-out;
+  transform-style: preserve-3d;
+}
+.smallcolumn {
+  height: 100%;
+  width: 8%;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  font-size: 100px; /* Increase font size */
+  color: #ffffff; /* Text color */
+  font-family: "Arial", sans-serif; /* Change font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+  transition: transform 0.3s; /* Animation for effect */
+}
+
+#timer:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.box {
+  width: 60%;
+  height: 100%;
+  display: block;
+}
+
+.bigcolumn {
+  width: 36.5%;
+  height: 100%;
+  display: block;
+}
+
+.smallrow {
+  height: 12.5%;
+  width: 100%;
+}
+
+.light {
+  height: 30%;
+  width: 100%;
+}
+.scrollimg {
+  width: 80%;
+  height: 85%;
+  transform: translateY(-17%);
+}
+.items {
+  width: 100%;
+  height: 70%;
+}
+
+.maze {
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+}
+
+.tile {
+  border: 1px solid black;
+}
+
+.walkable {
+  background-color: #a077d9;
+}
+.lock {
+  background-color: red;
+}
+.wall {
+  background-color: #6530b0;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+.special {
+  background-color: yellow;
+}
+.fullscr {
+  height: 100%;
+  width: 100%;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+.modal-content {
+  width: 1280px;
+  height: 720px;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+.modal-buttons {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.modal-buttons button {
+  margin-left: 10px; /* Spacing between buttons */
+}
+
+.modal-page {
+  height: 100%;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.player-tile {
+  background-color: pink; /* Player tile color */
+}
+.black {
+  background-color: #7f55b9;
+  border: 20px solid #7f55b9;
+}

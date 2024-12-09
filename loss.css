@@ -1,0 +1,27 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 0.5s ease;
+}
+
+.fullscr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+  position: relative; /* Added to enable movement */
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
