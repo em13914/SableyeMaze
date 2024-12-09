@@ -28,7 +28,7 @@ function generateDoorCode() {
 }
 window.onload = function () {
   mazemusic.play();
-  mazemusic.volume = 0.15;
+  mazemusic.volume = 0.4;
 };
 const maze = [
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
