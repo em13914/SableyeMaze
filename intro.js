@@ -2,7 +2,7 @@ var modal = document.getElementById("myModal");
 var imgs = document.getElementById("myImage");
 var modalImg = document.getElementById("modalImage");
 var span = document.getElementsByClassName("close")[0];
-var click = new Audio("audio/click.mp3");
+var click = new Audio("audio/click.m4a");
 
 imgs.onclick = function () {
   modal.style.display = "block";
