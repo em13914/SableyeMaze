@@ -12,7 +12,7 @@ let doorCode = "";
 let notesCollected = 0;
 const collectedSpecialTiles = new Set();
 let doorAttempts = 0;
-let timer = 50;
+let timer = 55;
 let visibleTime = 2;
 let cycleInterval;
 let lastPlayerTile = null;
